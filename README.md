@@ -24,5 +24,5 @@ curl "http://localhost:8080/api/v1/search?name=' OR '1'='1"
 
 Evidencia del Ataque (PoC):
 Así se ve cuando la API vulnerable (`/api/v1/search`) responde a un ataque de inyección SQL devolviendo todos los usuarios de la base de datos:
+<img width="1252" height="465" alt="evidencia_ataque_sql" src="https://github.com/user-attachments/assets/32622eda-5783-4414-b9ed-9fe9e04782ef" />
 
-![Resultado del ataque SQL Injection](screenshots/evidencia_ataque_sql.png)
